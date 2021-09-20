@@ -1,0 +1,84 @@
+/* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.product{
+     float:left;
+     width: calc(100% / 3);
+     position: relative;
+     cursor: pointer;
+     /* debug */
+     border: 3px solid red;
+ }
+
+ /* product image */
+ .product img {
+     width: 100%;
+     height: auto;
+     padding: 10px;
+ }
+
+ /* product text */
+ .product h4, .product p {
+    padding-left: 10px;
+}
+
+.brand_name {
+    font-size: 14px;
+
+}.discounted_price {
+    color: red;
+    font-weight: bold;
+}
+
+.old_price {
+    text-decoration: line-through;
+}
+
+/* heart */
+.heart {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #fff;
+    top: 30px;
+    right: 10px;
+}
+
+/* inpicture_text */
+.discount_percentage {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    text-align: center;
+}
+
+.discount_percentage span {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.discount_percentage span:first-child {
+    margin-right: 5px;
+    background-color: rgb(216, 46, 63);
+}
+
+.sustainability {
+    background-color: rgb(59, 133, 94);
+
+}
