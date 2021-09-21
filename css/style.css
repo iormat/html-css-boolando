@@ -9,7 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-main::after {
+.row::after {
     content:'';
     display: table;
     clear: both;
