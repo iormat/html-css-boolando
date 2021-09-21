@@ -9,6 +9,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+main::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
 /* main */
 main {
     width: 80%;
